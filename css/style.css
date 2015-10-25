@@ -1,0 +1,33 @@
+.box{
+	width:75%;
+	height:200px;
+	background-color:white;
+	margin-bottom:20px;
+	font-size:40px;
+}
+
+.show-desktop{
+	display: block;
+
+}
+
+.show-mobile{
+	display:none;
+}
+
+@media(max-width: 600px){
+	.show-desktop{
+		display:none;
+	}
+	.show-mobile{
+		display:block;
+	}
+
+}
+.nav{
+	padding:48px;
+	background-color: pink;
+	font-size:38px;
+	font-family: sans-serif;
+
+}
